@@ -2,7 +2,7 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ActiveDebugProfile>MinimalAPI</ActiveDebugProfile>
-    <NameOfLastUsedPublishProfile>C:\projects\MinimalAPI\MinimalAPI\Properties\PublishProfiles\MinimalAPI20220331044213 - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>C:\projects\MinimalAPI\.github\workflows\minimalcmsapi.yml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>

@@ -43,3 +43,4 @@ C:\projects\MinimalAPI\MinimalAPI\obj\Debug\net6.0\MinimalAPI.dll
 C:\projects\MinimalAPI\MinimalAPI\obj\Debug\net6.0\ref\MinimalAPI.dll
 C:\projects\MinimalAPI\MinimalAPI\obj\Debug\net6.0\MinimalAPI.pdb
 C:\projects\MinimalAPI\MinimalAPI\obj\Debug\net6.0\MinimalAPI.genruntimeconfig.cache
+C:\projects\MinimalAPI\MinimalAPI\obj\Debug\net6.0\MinimalAPI.csproj.AssemblyReference.cache
