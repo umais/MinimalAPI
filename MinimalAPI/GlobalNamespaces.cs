@@ -1,0 +1,9 @@
+﻿global using MinimalAPI;
+global using System.Collections.Generic;
+global using MinimalAPI.DataLibrary;
+global using MinimalAPI.Repositories;
+global using Microsoft.Data.Sqlite;
+global using Dapper;
+global using System.Linq;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.OpenApi.Models;
