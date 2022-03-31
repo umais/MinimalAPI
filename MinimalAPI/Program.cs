@@ -21,7 +21,12 @@ builder.Services.AddSingleton<IAccountRepository,AccountRepository>();
 var app =builder.Build();
 
 app.UseSwagger();
-app.UseSwaggerUI(c=>c.SwaggerEndpoint("/swagger/v1/swagger.json","CMS API v1"));
+app.UseSwaggerUI(c =>
+{
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "CMS API v1");
+    c.RoutePrefix="";
+}
+);
 //app.UseHttpsRedirection();
 IDatabaseBootstrap? databaseBootstrap = app.Services.GetService<IDatabaseBootstrap>();
 if(databaseBootstrap != null)
